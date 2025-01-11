@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Background Animation</title>
+</head>
+<style>
+    .div{
+        width: 1000px;
+        height: 600px;
+        background-size: 100% 100%;
+        box-shadow: 20px 20px 10px black;
+        animation: slider 5s linear infinite;
+    }
+    @keyframes slider {
+        0%{background-image:url(https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325466/man-walking-dog.jpg);}
+        30%{background-image:url(https://akshitphotography.com/wp-content/uploads/2021/08/Nature-Photography-105.jpg);}
+        60%{background-image:url(https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/16352/images/XMekOnhLSWOkW4J6s5JA_dawid-zawila--G3rw6Y02D0-unsplash.jpg);}
+        100%{background-image:url(https://wallpapers.com/images/hd/beautiful-nature-pictures-qjcss5r32ziry34t.jpg);}
+    }
+</style>
+<body>
+    <div class="div"></div>
+</body>
+</html>
